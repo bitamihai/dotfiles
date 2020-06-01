@@ -1,0 +1,32 @@
+[user]
+	name = Bita, Mihai-Valentin
+	email = mihai.valentin.bita@gmail.com
+
+[core]
+	autocrlf = input
+
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[gitflow "branch"]
+	master = master
+	develop = develop
+
+[gitflow "prefix"]
+	feature = feature/
+	bugfix = bugfix/
+	release = release/
+	hotfix = hotfix/
+	support = support/
+	versiontag = v
+
