@@ -1,43 +1,33 @@
 {
 	"$schema": "https://aka.ms/terminal-profiles-schema",
 
-	// Theme
 	"theme" : "dark",
 
-	// Window resize behavior
 	"snapToGridOnResize" : false,
 
-	// Tab settings
 	"alwaysShowTabs" : true,
 	"tabWidthMode" : "equal",
 	"confirmCloseAllTabs" : true,
 
-	// Launch settings
 	"lauchMode" : "default",
 	"initialPosition" : ",",
 	"initialCols" : 120,
 	"initialRows" : 30,
 
-	// Title bar settings
 	"showTabsInTitlebar" : true,
 	"showTerminalTitleInTitlebar" : true,
 
-	// Selection settings
 	"copyOnSelect" : false,
 	"copyFormatting" : false,
 
-	// Scroll speed
 	"rowsToScroll" : "system",
 
-	// Rendering settings
 	"experimental.rendering.forceFullRepaint" : false,
 	"experimental.rendering.software" : false,
 
-	// Profiles
 	"defaultProfile" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
 	"profiles" :
 	[
-		// PowerShell
 		{
 			"name" : "PowerShell",
 			"icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
@@ -58,7 +48,6 @@
 			"snapOnInput" : true,
 			"useAcrylic" : true
 		},
-		// Command Prompt
 		{
 			"name" : "Command Prompt",
 			"icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -79,7 +68,6 @@
 			"snapOnInput" : true,
 			"useAcrylic" : true
 		},
-		// WSL Ubuntu 18.04 Bash
 		{
 			"name" : "Bash",
 			"icon" : "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
@@ -101,7 +89,6 @@
 			"snapOnInput" : true,
 			"useAcrylic" : true
 		},
-		// Azure
 		{
 			"hidden" : true,
 			"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -111,10 +98,8 @@
 	],
 	"disabledProfileSources" : "Windows.Terminal.Azure",
 
-	// Key bindings
 	"keybindings" :
 	[
-		// Tabs
 		{
 			"command" : "duplicateTab",
 			"keys" :
@@ -150,7 +135,6 @@
 				"ctrl+shift+tab"
 			]
 		},
-		// Panes
 		{
 			"command":
 			{
@@ -198,7 +182,6 @@
 		}
 	],
 
-	// Color schemes
 	"schemes" :
 	[
 		{
