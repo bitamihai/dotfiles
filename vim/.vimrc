@@ -1,5 +1,6 @@
 " Enable line numbers
 set number
+set relativenumber
 
 " Enable smart indent
 set ai
